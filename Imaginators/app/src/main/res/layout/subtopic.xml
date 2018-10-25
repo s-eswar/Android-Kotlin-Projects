@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView_subtopic_title"
+        android:textColor="#200"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        android:text="Subtopic Title" />
+
+    <TextView
+        android:id="@+id/textView_count"
+        android:layout_width="68dp"
+        android:gravity="center"
+        android:textColor="#200"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="count" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp" />
+
+    <ImageView
+        android:id="@+id/imageView_bulb"
+        android:layout_width="79dp"
+        android:layout_height="93dp"
+        android:layout_alignBottom="@+id/progressBar2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/bulb_on" />
+
+    <TextView
+        android:id="@+id/textView_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView_count"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:text="no." />
+
+</RelativeLayout>
